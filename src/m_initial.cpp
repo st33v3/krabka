@@ -18,6 +18,7 @@ void Initial::setup() {
 void Initial::enter() {
   start = millis();
   lightButtons(7);
+  rgbLight(0, 0, 0);
   buzzer.stop();
 }
 
